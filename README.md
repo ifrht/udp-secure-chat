@@ -12,10 +12,10 @@ Uygulamada UDP paketleri kullanıldığı için başlangıçta bir tarafın herh
 
 Çıktılara ait görüntüler aşağıdaki gibidir.
 
-![1](1.png)
+![1](1.PNG)
 
-![2](2.png)
+![2](2.PNG)
 
-![3](3.png)
+![3](3.PNG)
 
-![4](4.png)
+![4](4.PNG)
