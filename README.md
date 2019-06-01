@@ -10,3 +10,12 @@ Sistemin çalışma yapısı aşağıdaki grafikteki gibidir.
 
 Uygulamada UDP paketleri kullanıldığı için başlangıçta bir tarafın herhangi bir UDP paketi göndermesi gerekmektedir. Benim tasarladığım kod yapısında Client tarafı ilk mesajı gönderendir. Server, Client’dan aldığı ilk paketden Client’ın IP adresi ve Port bilgisini çıkarıp bir değişkene kaydetmektedir. Daha sonra Server tarafından oluşturulan RSA anahtar çiftlerinin Public Key’ini Client’a göndermektedir. Client tarafından alınan Server’a ait Public Key kullanılarak Client’ın oluşturduğu AES şifresi encrypt edilip Server’a gönderilir. Server encrypt edilmiş AES anahtarını aldıktan sonra kendi Private Key’i ile bu şifreli metni çözer ve AES anahtarını öğrenmiş olur. Bu şekilde anahtar değişimi tamamlanmış olur. Daha sonraki tüm mesajlaşmalarda bu AES anahtarı kullanılarak mesajlar şifrelenerek güvenli bir iletişim sağlanır.
 
+Çıktılara ait görüntüler aşağıdaki gibidir.
+
+![1](1.png)
+
+![2](2.png)
+
+![3](3.png)
+
+![4](4.png)
